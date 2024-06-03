@@ -4,7 +4,7 @@ export type MessageDTO = {
   message: string;
   parent: null | string;
   createdAt: number;
-  processing?:boolean
+  processing?: boolean;
 };
 
 export type ChatRoomDTO = {

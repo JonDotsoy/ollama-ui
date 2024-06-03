@@ -1,10 +1,7 @@
 ---
 import { Panel } from "../domains/chat-room/panel";
+import {ViewTransitions} from "astro:transitions"
 ---
-
-<script>
-
-</script>
 
 <html lang="en">
 	<head>
@@ -13,6 +10,7 @@ import { Panel } from "../domains/chat-room/panel";
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro</title>
+		<ViewTransitions />
 	</head>
 	<body>
 		<Panel client:only />
